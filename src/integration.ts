@@ -11,6 +11,7 @@ export class ExampleIntegration extends D.Integration {
   }
 
   async action(_request: D.ActionRequest) {
+    // Implement your action here...
     return new D.ActionResponse()
   }
 

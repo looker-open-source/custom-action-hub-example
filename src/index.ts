@@ -1,4 +1,4 @@
-import "./integration"
+import "./action"
 import Server from "looker-action-hub/lib/server/server"
 
 Server.run()

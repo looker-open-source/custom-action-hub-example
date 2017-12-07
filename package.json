@@ -10,7 +10,7 @@
     "start": "./node_modules/.bin/ts-node ./src/index.ts"
   },
   "dependencies": {
-    "looker-action-hub": "looker/integrations",
+    "looker-action-hub": "looker/actions",
     "ts-node": "^3.3.0",
     "typescript": "^2.6.1"
   },

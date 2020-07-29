@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
       "module": "CommonJS",
+      "moduleResolution": "Node",
       "noEmitOnError": true,
       "noUnusedLocals": true,
       "noUnusedParameters": true,
@@ -8,6 +9,12 @@
       "outDir": "lib",
       "sourceMap": false,
       "strict": true,
-      "target": "ES6"
+      "target": "ES6",
+       "plugins": [
+	    {
+	      "name": "tslint-language-service",
+	      "alwaysShowRuleFailuresAsWarnings": true
+	    }
+      ]
     }
 }

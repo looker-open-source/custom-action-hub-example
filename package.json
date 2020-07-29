@@ -10,11 +10,11 @@
     "start": "./node_modules/.bin/ts-node ./src/index.ts"
   },
   "dependencies": {
-    "looker-action-hub": "looker/actions",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.6.1"
+    "looker-action-hub": "looker/actions#phillip/fix-custom-action-hub",
+    "ts-node": "^6.0.5",
+    "typescript": "^3.0.1"
   },
   "engines": {
-    "node": "10.8.0"
+    "node": "12.13.0"
   }
 }

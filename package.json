@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "looker-action-hub": "looker/actions",
-    "ts-node": "^3.3.0",
-    "typescript": "^2.6.1"
+    "ts-node": "^6.0.5",
+    "typescript": "^3.0.1"
   },
   "engines": {
-    "node": "10.8.0"
+    "node": "12.13.0"
   }
 }

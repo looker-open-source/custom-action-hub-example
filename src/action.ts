@@ -8,7 +8,7 @@ export class ExampleAction extends Hub.Action {
   supportedActionTypes = [Hub.ActionType.Query]
   params = []
 
-  async action(_request: Hub.ActionRequest) {
+  async execute(_request: Hub.ActionRequest) {
     // Implement your action here...
     return new Hub.ActionResponse()
   }
